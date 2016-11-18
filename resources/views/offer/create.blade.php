@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-    {{ var_dump($errors) }}
     @if (count($errors) > 0)
         <div class="alert alert-danger">
             <ul>
